@@ -1,0 +1,136 @@
+.main {
+  width: 1150px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+}
+.main__profile {
+  position: relative;
+}
+.main__profile_info {
+  width: 800px;
+  height: 250px;
+  display: flex;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: -80px;
+}
+.main__posts {
+  margin-top: 200px;
+  width: 800px;
+  min-height: 400px;
+  height: auto;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: 25px;
+  padding-bottom: 30px;
+}
+.main__new-post {
+  min-height: 100px;
+  width: 700px;
+  margin: auto;
+}
+.main__new-post input {
+  width: 400px;
+  height: 50px;
+  margin: 30px 20px;
+  border: 1px solid #132aad;
+}
+.main__new-post button {
+  padding: 18px;
+  border: 1px solid #132aad;
+}
+.main__new-post button:hover {
+  background-color: #132aad;
+  color: #ffffff;
+}
+.main__avatar {
+  margin: 35px 0 0 35px;
+}
+.main__avatar img {
+  width: 150px;
+}
+.main__info {
+  margin: 35px 0 0 40px;
+}
+.main__name {
+  font-size: 30px;
+}
+.main__company_list {
+  display: flex;
+  margin-top: 20px;
+}
+.main__company {
+  margin-left: 10px;
+}
+.main__post {
+  width: 700px;
+  margin: auto;
+  margin-top: 30px;
+  min-height: 100px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+  display: flex;
+}
+.main__post img {
+  width: 80px;
+  margin: 10px 20px;
+}
+.main__post__text {
+  margin-top: 10px;
+}
+.main__post__caption {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.buttons-link {
+  margin-top: 80px;
+}
+.buttons-link button {
+  font-family: "Hind", sans-serif;
+  padding: 5px 10px;
+  border: 1px solid #132aad;
+}
+.buttons-link button:hover {
+  background-color: #132aad;
+  color: #ffffff;
+}
+
+aside {
+  min-width: 300px;
+}
+aside .companys {
+  width: 300px;
+  min-height: 300px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+aside .companys h1 {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+aside .companys__descr {
+  display: flex;
+  margin: auto;
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+aside .companys__descr img {
+  width: 60px;
+  border: 0.5px solid #132aad;
+}
+aside .companys__descr a {
+  text-decoration: none;
+  color: #000;
+  margin-left: 10px;
+}
+aside .companys__descr__text {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+/*# sourceMappingURL=main__content.css.map */
